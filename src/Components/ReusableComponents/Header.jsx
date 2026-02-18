@@ -114,17 +114,17 @@ function Header() {
     >
 
     <Link to="/">
-  <img
-    src={Logo}
-    alt="Scopik Logo"
-    className="
-      w-[55px] md:w-[70px] lg:w-[65px]
-      z-50
-      h-10
-      ml-8
-      rounded-lg
-    "
-  />
+<img
+  src={Logo}
+  alt="Scopik Logo"
+  className="
+    w-[45px] md:w-[60px] lg:w-[55px]
+    h-auto
+    object-contain
+    ml-8
+  "
+/>
+
 </Link>
 
       {/* Desktop Menu */}

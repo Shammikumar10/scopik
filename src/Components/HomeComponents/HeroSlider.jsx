@@ -41,7 +41,7 @@ const HeroSlider = () => {
           <img
             src={slide.image}
             alt=""
-            className="w-full h-full object-fit mt-5"
+            className="w-full h-full object-cover mt-10"
           />
 
           {/* Dark or Light Gradient Overlay */}
