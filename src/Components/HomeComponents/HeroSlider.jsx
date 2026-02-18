@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import slider1 from "../../assets/bnr.png";
-import slider2 from "../../assets/bnr2.jpeg";
-import slider3 from "../../assets/bnr3.jpeg";
+import slider1 from "../../assets/bnr.jpeg";
+import slider2 from "../../assets/bnr.jpeg";
+import slider3 from "../../assets/bnr.jpeg";
 
 const slides = [
   {
@@ -41,7 +41,7 @@ const HeroSlider = () => {
           <img
             src={slide.image}
             alt=""
-            className="w-full h-full object-fit mt-10"
+            className="w-full h-full object-fit mt-5"
           />
 
           {/* Dark or Light Gradient Overlay */}
