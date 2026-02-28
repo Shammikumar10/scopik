@@ -4,7 +4,7 @@ import { CourseContext, loginContext } from "/src/App";
 // import WhatWeHave from "/src/Components/CourseComponents/WhatWeHave.jsx";
 import Syllabus from "/src/Components/CourseComponents/Syllabus.jsx";
 import Learning from "/src/Components/ReusableComponents/Learning.jsx";
-import Certificate from "../../Components/CourseComponents/Certificates";
+import Certificate from "../../Components/CourseComponents/Certificate";
 import FAQ from "../../Components/HomeComponents/FAQ";
 import axios from "axios";
 import { FaRupeeSign } from "react-icons/fa";
