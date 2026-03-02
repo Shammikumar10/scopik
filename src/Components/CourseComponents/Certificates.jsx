@@ -1,4 +1,4 @@
-import certificateImg from "/src/assets/Certificates/certificate.jpeg";
+import certificateImg from "../../assets/Certificates/Certificate.jpeg";
 import { FaPlay } from "react-icons/fa";
 import useTheme from "/src/Hooks/ThemeHook.js";
 
