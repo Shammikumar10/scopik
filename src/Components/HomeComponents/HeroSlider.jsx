@@ -49,7 +49,7 @@ const HeroSlider = () => {
             className="block md:hidden w-full h-[420px] object-cover"
           />
           <div className="absolute inset-0"></div>
-<div className="absolute bottom-3 md:bottom-10 left-5 md:left-10 z-30">
+<div className="absolute bottom-3 md:bottom-5 left-5 md:left-10 z-30">
   <button
     onClick={() => navigate(slide.link)}
     className="px-5 py-2 md:px-6 md:py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition text-sm md:text-base"
